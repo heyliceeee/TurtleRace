@@ -1,5 +1,6 @@
 import random
 from turtle import Turtle, Screen
+from tkinter import messagebox
 
 
 screen = Screen()
@@ -33,9 +34,9 @@ def race_start():
                 is_race_on = False # race stop
                 winning_color = turtle.pencolor()
                 if winning_color == user_bet: # check if winner is user bet
-                    print(f"you have won! the {winning_color} turtle is the winner!")
+                    messagebox.showinfo("", f"you have won! the {winning_color} turtle is the winner!")
                 else:
-                    print(f"you have lost! the {winning_color} turtle is the winner!")
+                    messagebox.showinfo("", f"you have lost! the {winning_color} turtle is the winner!")
 
             rand_distance = random.randint(0, 10) # current turtle move randomly between 0 and 10
             turtle.forward(rand_distance) # current turtle move forward random steps
