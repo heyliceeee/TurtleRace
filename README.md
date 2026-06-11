@@ -1,30 +1,30 @@
 # 🐢 Turtle Race
 
-Um mini‑jogo criado com **Python Turtle** onde seis tartarugas competem numa corrida aleatória.  
-O utilizador aposta numa cor e, no final, recebe o resultado através de uma **janela popup** (Tkinter).
+A mini‑game created with **Python Turtle** where six turtles compete in a random race.  
+The user bets on a color and, at the end, receives the result through a **popup window** (Tkinter).
 
 ---
 
-## 🎯 Objetivo  
-Simular uma corrida entre tartarugas com movimento aleatório e informar o utilizador, através de uma mensagem gráfica, se ganhou ou perdeu a aposta.
+## 🎯 Purpose  
+Simulate a race between turtles with random movement and inform the user—via a graphical message—whether they won or lost the bet.
 
 ---
 
-## 🧠 Funcionalidades  
-- Interface gráfica com `turtle.Screen()`  
-- Caixa de texto para o utilizador apostar numa cor  
-- Instanciação automática das 6 tartarugas  
-- Movimento aleatório até à linha de chegada  
-- Popup com o resultado usando `tkinter.messagebox`  
-- Encerramento da janela ao clicar
+## 🧠 Features  
+- Graphical interface using `turtle.Screen()`  
+- Text input for the user to place a color bet  
+- Automatic creation of the 6 turtles  
+- Random movement until reaching the finish line  
+- Result popup using `tkinter.messagebox`  
+- Window closes only when clicked  
 
 ---
 
-## 📚 Conceitos praticados  
-- Manipulação de objetos `Turtle`  
-- Input do utilizador com `screen.textinput()`  
-- Uso de `tkinter.messagebox` para feedback visual  
-- Listas, ciclos e lógica condicional  
-- Geração de números aleatórios  
-- Coordenadas e posicionamento no ecrã  
-- Estruturação de funções
+## 📚 Concepts Practiced  
+- Manipulation of `Turtle` objects  
+- User input with `screen.textinput()`  
+- Use of `tkinter.messagebox` for visual feedback  
+- Lists, loops, and conditional logic  
+- Random number generation  
+- Coordinates and screen positioning  
+- Function structuring  
